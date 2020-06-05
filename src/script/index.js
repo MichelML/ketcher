@@ -79,7 +79,7 @@ window.onload = function () {
 	if (params.api_path)
 		ketcher.apiPath = params.api_path;
 	ketcher.server = api(ketcher.apiPath, {
-		'smart-layout': true,
+		'smart-layout': false,
 		'ignore-stereochemistry-errors': true,
 		'mass-skip-error-on-pseudoatoms': false,
 		'gross-formula-add-rsites': true
