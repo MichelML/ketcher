@@ -84,6 +84,8 @@ window.onload = function () {
 		'mass-skip-error-on-pseudoatoms': false,
 		'gross-formula-add-rsites': true
 	});
+	ketcher.ui = ui(Object.assign({}, params, buildInfo), ketcher.server);
+	ketcher.editor = global._ui_editor;
 };
 
 const buildInfo = {
